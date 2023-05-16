@@ -1,0 +1,57 @@
+.bg-img{
+  height: 50vh;
+  width:100vw;
+  object-fit: cover;
+  filter: brightness(0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container .btn {
+  position: absolute;
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn-2 {
+  position: absolute;
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(40%, -50%);
+  -ms-transform: translate(-80%, -90%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .rounded-circle{
+  position: absolute;
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -110%);
+  -ms-transform: translate(-80%, -90%);
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
