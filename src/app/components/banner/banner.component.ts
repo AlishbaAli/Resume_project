@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./banner.component.css']
 })
 export class BannerComponent {
+  banner ={
+    heading:"Alishba Ali",
+    subHeading: "Software Developer",
+    url:"../../../assets/images/banner.jpg",
+    avatar: "../../../assets/images/avatar.jpg"
+  }
 
 }
