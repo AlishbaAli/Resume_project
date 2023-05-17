@@ -2,6 +2,15 @@
 <main>
 <app-banner></app-banner>
 <app-skills></app-skills>
-<app-card></app-card>
+<section class = "pt-4">
+  <h1 class="text-center">Portfolio</h1>
+<div class="container  px-lg-5">
+  <div class="row gx-lg-5">
+    <div  *ngFor="let card of cards" class="col-lg-6 col-xxl-4 mb-5">
+<app-card [card]= "card"></app-card>
+</div>
+</div>
+</div>
+</section>
 </main>
 <app-footer></app-footer>
